@@ -6,7 +6,7 @@
     $.vegas({
         src: 'http://authenticgoods.co/wrapbootstrap/themes/articulate/img/slider/04.jpg'
     })('overlay', {
-        src: 'img/overlays/14.png'
+        src: 'img/overlays/05.png'
     });
 
     $(".navbar").sticky({

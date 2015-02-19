@@ -295,6 +295,9 @@ label.valid {
 .btn-linkedin:hover {
     color:#015786
 }
+.btn-github:hover {
+    color:#000000
+}
 .left {
     float:left
 }

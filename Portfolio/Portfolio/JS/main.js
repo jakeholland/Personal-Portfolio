@@ -1,7 +1,7 @@
 ﻿$(document).ready(function () {
     Parse.initialize("WAjj5MaAdb8zNUmJ8rE0Y0HDTpYFru9Cs0f4UBgQ", "o93YSY4iZHdauQyNXjFsWChQaJm64ORnRHe9QJ3k");
 
-    $('#sentMessage').hide();
+    $('#sentMessage').hide(); // Initially hide the success message
 
     $.vegas({
         src: 'http://authenticgoods.co/wrapbootstrap/themes/articulate/img/slider/04.jpg'
@@ -22,21 +22,20 @@
         $("ul.nav-pills li.active").removeClass("active"), $(this).parent("li").addClass("active")
     });
 
-
-
     $(".grid-wrapper").magnificPopup({
         delegate: "a",
         type: "image",
         gallery: {
-            enabled: !0
-        }
-    });
-
-    $(".grid-wrapper").magnificPopup({
-        delegate: "a",
-        type: "image",
-        gallery: {
-            enabled: false
+            enabled: true,
+            navigateByImgClick: true,
+            preload: [0, 1] // Will preload 0 - before current, and 1 after the current image
+        },
+        zoom: {
+            enabled: true,
+            duration: 300, // don't foget to change the duration also in CSS
+            opener: function (element) {
+                return element.find('img');
+            }
         }
     });
 
@@ -56,14 +55,12 @@
 
     $("#main-menu").onePageNav({
         currentClass: "active",
-        changeHash: !1,
+        changeHash: false,
         scrollThreshold: 0.5,
         scrollSpeed: 750,
         filter: "",
         easing: "swing"
     });
-
-
 
     var $container = $(".grid-wrapper");
     $container.imagesLoaded(function () {
@@ -80,8 +77,6 @@
             filter: $(this).attr("data-filter")
         });
     });
-
-
 
     $('#contact-form').formValidation({
         framework: 'bootstrap',

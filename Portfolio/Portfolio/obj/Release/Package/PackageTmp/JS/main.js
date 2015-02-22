@@ -1,10 +1,20 @@
 ﻿$(document).ready(function () {
     Parse.initialize("WAjj5MaAdb8zNUmJ8rE0Y0HDTpYFru9Cs0f4UBgQ", "o93YSY4iZHdauQyNXjFsWChQaJm64ORnRHe9QJ3k");
 
+    // Force close for mobile view
+    $(".auto-close").click(function (event) {
+
+        if (screen.width <= 767) {
+            event.stopPropagation();
+            $(".navbar-collapse").collapse('hide');
+        }
+
+    });
+
     $('#sentMessage').hide(); // Initially hide the success message
 
     $.vegas({
-        src: 'http://authenticgoods.co/wrapbootstrap/themes/articulate/img/slider/04.jpg'
+        src: 'img/header.jpg'
     })('overlay', {
         src: 'img/overlays/05.png'
     });
@@ -55,7 +65,7 @@
 
     $("#main-menu").onePageNav({
         currentClass: "active",
-        changeHash: false,
+        changeHash: true,
         scrollThreshold: 0.5,
         scrollSpeed: 750,
         filter: "",

@@ -66,6 +66,7 @@
     <Content Include="fonts\glyphicons-halflings-regular.ttf" />
     <Content Include="fonts\glyphicons-halflings-regular.woff" />
     <Content Include="fonts\glyphicons-halflings-regular.woff2" />
+    <Content Include="img\favicon.ico" />
     <Content Include="img\header.jpg" />
     <Content Include="img\large\02.png" />
     <Content Include="img\large\03.png" />

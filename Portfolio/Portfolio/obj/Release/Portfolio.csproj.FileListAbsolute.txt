@@ -1,6 +1,0 @@
-C:\Users\Jake\Documents\GitHub\Portfolio-V2\Portfolio\Portfolio\bin\Portfolio.dll.config
-C:\Users\Jake\Documents\GitHub\Portfolio-V2\Portfolio\Portfolio\bin\Portfolio.dll
-C:\Users\Jake\Documents\GitHub\Portfolio-V2\Portfolio\Portfolio\bin\Portfolio.pdb
-C:\Users\Jake\Documents\GitHub\Portfolio-V2\Portfolio\Portfolio\obj\Release\Portfolio.csprojResolveAssemblyReference.cache
-C:\Users\Jake\Documents\GitHub\Portfolio-V2\Portfolio\Portfolio\obj\Release\Portfolio.dll
-C:\Users\Jake\Documents\GitHub\Portfolio-V2\Portfolio\Portfolio\obj\Release\Portfolio.pdb

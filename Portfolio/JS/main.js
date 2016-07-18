@@ -14,7 +14,7 @@
     $('#sentMessage').hide(); // Initially hide the success message
 
     $("#typed_subheader").typed({
-        strings: ["MOBILE APP DEVELOPER", "DESIGNER", "WEB DEVELOPER", "GEEK", "FULL STACK DEVELOPER"],
+        strings: ["iOS DEVELOPER", "DESIGNER", "WEB DEVELOPER", "GEEK", "FULL STACK DEVELOPER"],
         typeSpeed: 30,
         backDelay: 750,
         loop: false,

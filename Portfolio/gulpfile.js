@@ -14,8 +14,9 @@ gulp.task('compress', function() {
     .pipe(cleanCSS({compatibility: 'ie10'}))
     .pipe(gulp.dest('dist/CSS'));
   gulp.src('*.html')
-    .pipe(htmlmin({collapseWhitespace: true}))
     .pipe(gulp.dest('dist'))
+    gulp.src('*.php')
+      .pipe(gulp.dest('dist'))
 });
 
 // Default Task

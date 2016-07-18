@@ -1,0 +1,22 @@
+{
+  "name": "portfolio",
+  "version": "1.0.0",
+  "description": "Jacob Holland's personal website.",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jakeholland/Portfolio-V2.git"
+  },
+  "author": "Jacob Holland",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jakeholland/Portfolio-V2/issues"
+  },
+  "homepage": "https://github.com/jakeholland/Portfolio-V2#readme",
+  "devDependencies": {
+    "gulp": "^3.9.1"
+  }
+}
